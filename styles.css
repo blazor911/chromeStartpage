@@ -4,6 +4,7 @@
   }
 
 body {
+    user-select: none;
     background: #191724;
     margin: 0;
     display: flex;
