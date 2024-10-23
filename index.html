@@ -111,7 +111,7 @@
 
                     // Display the temperature and weather description
                     weatherInfo.textContent = ` ${temperature}°C`;
-                    weatherDescription.textContent = `${data.weather[0].description}`;
+                    weatherDescription.textContent = city;
 
                     // Display the weather icon
                     const weatherIcon = document.createElement('i');
@@ -127,11 +127,11 @@
         const time = new Date().getHours();
             let greeting;
             if (time < 10) {
-            greeting = "Good morning, user";
+            greeting = "Good morning, blazor911";
             } else if (time < 20) {
-            greeting = "Good afternoon, user";
+            greeting = "Good afternoon, blazor911";
             } else {
-            greeting = "Good evening user";
+            greeting = "Good evening, blazor911";
             }
             document.getElementById("greeting").innerHTML = greeting;
     </script>
